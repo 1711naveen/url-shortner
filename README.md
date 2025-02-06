@@ -1,4 +1,13 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# URL Shortener
+
+A simple URL shortener frontend built with Next.js and Tailwind CSS. It allows users to enter a long URL and get a shortened version using the TinyURL API.
+
+## Features
+- Enter a long URL and get a shortened version.
+- Click on the shortened URL to open it in a new tab.
+- Copy the shortened URL with a single click.
+- Responsive and user-friendly UI.
 
 ## Getting Started
 
@@ -6,12 +15,6 @@ First, run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
@@ -20,17 +23,24 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
+## Usage
+1. Enter a long URL in the input field.
+2. Click the **Shorten URL** button.
+3. The app fetches a shortened link from the TinyURL API.
+4. Click the shortened link to open it in a new tab or use the **Copy** button to copy it.
 
-To learn more about Next.js, take a look at the following resources:
+## Technologies Used
+- **Next.js** – For the frontend.
+- **Tailwind CSS** – For styling.
+- **TinyURL API** – To generate shortened URLs.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Future Enhancements
+- Add support for custom short URLs.
+- Integrate a backend service to store and manage shortened URLs.
+- Display a history of shortened URLs for the user.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## License
+This project is open-source and available under the MIT License.
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
